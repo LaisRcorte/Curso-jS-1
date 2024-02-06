@@ -7,7 +7,7 @@ let tentativas= 1;
 
 while(chute != numeroSecreto){
     //vezes = prompt("Escolha ate que numero gostaria de adivinhar");
-    chute = prompt(`Escolha um número entre 1 e ${vezes}`);
+    chute = prompt(`Escolha um número entre 2 e ${vezes}`);
     if (chute == numeroSecreto){
        break; 
     }else{
